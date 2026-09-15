@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>لوحة الأدمن | 1Q</title><link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><h1>لوحة الأدمن</h1><button id="backBtn">رجوع للموقع</button></div>
+  <form id="uploadForm">
+    <input name="name" placeholder="اسم اللعبة/الملف" required>
+    <select name="kind"><option value="game">لعبة</option><option value="file">ملف / تطبيق</option></select>
+    <select name="category" id="category"></select>
+    <textarea name="description" placeholder="الوصف"></textarea>
+    <input name="file" type="file" required>
+    <input name="image" type="file" accept="image/*">
+    <button type="submit">رفع</button>
+    <p id="msg"></p>
+  </form>
+  <h2>المرفوعات</h2>
+  <div id="list"></div>
+</div>
+<script src="/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سِتٌيَکْر | 1Q</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="login-page" id="loginPage">
+  <div class="login-box">
+    <div class="login-logo">سِتٌيَکْر | 1Q</div>
+    <p>اكتب رقم الدخول 1</p>
+    <input id="loginCode" type="password" inputmode="numeric" autocomplete="off" placeholder="رقم الدخول">
+    <button id="loginBtn">دخول</button>
+    <p id="loginError" class="login-error"></p>
+  </div>
+</div>
+
+<div id="sitePage" style="display:none">
+  <div class="telegram-bar">
+    <div class="telegram-content">
+      <div class="telegram-text">القناة الوحيدة المعتمدة، بيها كل المعلومات والتحديثات المهمة.</div>
+      <div class="telegram-links">
+        <a class="telegram-button" href="https://t.me/y9_1Q" target="_blank" rel="noopener">📲 القناة الرسمية</a>
+        <a class="telegram-button" href="https://t.me/y9_ju" target="_blank" rel="noopener">@y9_ju</a>
+        <a class="telegram-button" href="https://t.me/x15m01" target="_blank" rel="noopener">@x15m01</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">سِتٌيَکْر | 1Q</div>
+      <nav>
+        <a href="#games">الألعاب</a>
+        <a href="#files">الملفات</a>
+        <button id="adminButton" class="admin-nav-button">⚙️ لوحة الأدمن</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>سِتٌيَکْر | 1Q</h1>
+      <p>مكتبة ألعاب وتطبيقات وملفات</p>
+    </section>
+
+    <section id="games" class="games-section">
+      <h2 class="section-title">🎮 الألعاب</h2>
+      <input id="gameSearch" class="search-box" type="search" placeholder="🔎 ابحث عن لعبة...">
+      <div id="gameCategories" class="categories"></div>
+      <div id="gamesContainer" class="games-container"></div>
+    </section>
+
+    <section id="files" class="files-section">
+      <h2 class="section-title">📦 الملفات والتطبيقات</h2>
+      <input id="fileSearch" class="search-box" type="search" placeholder="🔎 ابحث عن ملف...">
+      <div id="fileCategories" class="categories"></div>
+      <div id="filesContainer" class="games-container"></div>
+    </section>
+  </main>
+
+  <footer>سِتٌيَکْر | 1Q</footer>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
